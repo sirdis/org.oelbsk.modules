@@ -12,5 +12,5 @@ module org.oelbsk.modules {
 	
 	uses org.oelbsk.modules.service.IService;
 
-	opens org.oelbsk.modules;
+	opens org.oelbsk.modules to spring.core, spring.beans, spring.context;
 }
